@@ -7,11 +7,11 @@ Download and Add libr at the bottom of your wepage before the closing body tag o
 to use Libr with other frontend libraries/frameworks like react, we recommended you grab the Libr-v1.js instead of Libr-v1.0.0.js
 
 # Code Samples
-
+```
 Libr.ready(function() {
   Libr('document').on('click', function(){
     alert('Hello from Libr')
   })
 })
-
+```
 take some time to explore the source code for available methods while we are still compiling the official documentation
