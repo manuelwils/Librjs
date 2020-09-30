@@ -3,7 +3,8 @@ Libr is a lightweight DOM manipulation Library for ease of development of fronte
 Using this Library is very similar to using jquery with just slight differences and yet super fast
 
 # Usage
-Download and Add libr at the bottom of your wepage before the closing body tag or in the head section and you are good to go
+Download and Add libr at the bottom of your wepage before the closing body tag or in the head section and you are good to go;
+to use Libr with other frontend libraries/frameworks like react, we recommended you grab the Libr-v1.js instead of Libr-v1.0.0.js
 
 # Code Samples
 
