@@ -14,5 +14,20 @@ Libr.ready(function() {
     alert('Hello from Libr')
   })
 })
+
+Libr('.form').on('submit', function(e) {
+				e.preventDefault();
+				var data = new FormData(this);
+				Libr.ajax({
+					method: 'POST',
+					url: '/register',
+					headers: {
+						'Content-Type': 'application/x-www-form-urlencoded'
+					},
+					body: data,
+					done: function(data){ console.log(data) },
+					fail: function(err){ console.log(err) }
+				})
+			})
 ```
 take some time to explore the source code for available methods while we are still compiling the official documentation
