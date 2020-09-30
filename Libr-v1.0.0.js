@@ -1,6 +1,6 @@
 /**
 * @author: Emmanuel Godswill - (Ryan Lincoln);
-* @version: 0.0.1;
+* @version: 1.0.0;
 */
 function createFactory(e, t) {
     return t ? new e(t) : new e();
