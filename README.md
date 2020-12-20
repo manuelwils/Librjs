@@ -8,14 +8,14 @@ Download and Add libr at the bottom of your wepage before the closing body tag o
 to use Libr with other frontend libraries/frameworks like react, we recommended you grab the Libr-v0.0.1.js instead of Libr-v1.0.0.js
 
 # Code Samples
-```
+```javascript
 Libr.ready(function() {
   Libr('document').on('click', function(){
     alert('Hello from Libr')
   })
 })
 ```
-```
+```javascript
 Libr('.form').on('submit', function(e) {
 	e.preventDefault();
 	var data = new FormData(this);
